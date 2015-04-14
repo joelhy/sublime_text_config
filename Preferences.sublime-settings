@@ -35,7 +35,7 @@
 	],
 	"soda_classic_tabs": true,
 	"soda_folder_icons": false,
-	"theme": "Soda Dark 3.sublime-theme",
+	// "theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_wrap": true
