@@ -1,16 +1,17 @@
 [
-{ "keys": ["alt+;"], "command": "move_to", "args": {"to": "eol", "extend": false} },
-{ "keys": ["super+m"], "command": "toggle_bookmark" },
-{ "keys": ["ctrl+shift+x"], "command": "tidy_xml_lint" },
-{ "keys": ["ctrl+alt+g"], "command": "find_all_under" },
-{ "keys": ["super+e"], "command": "slurp_find_string" },
-{ "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
-{ "keys": ["f12"],
-"command": "side_bar_files_open_with",
-"args": {
-"paths": [],
-"application": "/usr/bin/geany", // Linux
-"extensions":"" //open all even folders
-}
-}
+    { "keys": ["alt+;"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    { "keys": ["super+m"], "command": "toggle_bookmark" },
+    { "keys": ["ctrl+shift+x"], "command": "tidy_xml_lint" },
+    { "keys": ["ctrl+alt+g"], "command": "find_all_under" },
+    { "keys": ["super+e"], "command": "slurp_find_string" },
+    { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["f12"],
+        "command": "side_bar_files_open_with",
+        "args": {
+            "paths": [],
+            "application": "/usr/bin/geany", // Linux
+            "extensions":"" //open all even folders
+        }
+    },
+    { "keys": ["super+d"], "command": "goto_definition" }
 ]
